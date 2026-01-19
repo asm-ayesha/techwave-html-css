@@ -1,0 +1,12 @@
+/* small device */
+@media screen and (max-width: 576px) {
+    /* navbar section responsive */
+    .nav-items,
+    .nav-btn{
+        display:none;
+    }
+
+    .hamburger-menu {
+        display: block;
+    }
+}
