@@ -71,10 +71,27 @@
 
 
 
-/*  */
-.youtube-cards{
-    flex-direction: column;
-}
+    /* featured episode section responsive */
+    .youtube-cards {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+
+    /*meet the host section style */
+    .meet-container {
+        flex-direction: column;
+        text-align: center;
+       width: 380px;
+    
+    }
+
+    .icons {
+
+        justify-content: center;
+        align-items: center;
+
+    }
 
 
 }

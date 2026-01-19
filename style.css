@@ -266,7 +266,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 30px;
+    gap: 60px;
 }
 
 .uTube-card{
@@ -304,6 +304,44 @@ iframe{
 
 .fa-clock{
     padding-right: 8px;
+}
+
+
+/*meet the host section style */
+.meet-container{
+    margin: 125px;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+    border-radius: 40px;
+background: rgba(53, 17, 101, 0.4);
+}
+
+.host-name{
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
+    padding-bottom: 16px;
+}
+
+.host-desc{
+    color: rgb(148, 147, 147);
+    padding-bottom: 16px;
+}
+
+.icons{
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 8px;
+}
+
+.icons img{
+  border: 1px solid rgba(83, 60, 114, 1);
+  padding: 10px;
+  border-radius: 100%;
 }
 
 
