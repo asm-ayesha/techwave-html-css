@@ -308,8 +308,14 @@ iframe{
 
 
 /*meet the host section style */
+.meet-host h1{
+    text-align: center;
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+}
 .meet-container{
-    margin: 125px;
+    margin: 80px;
     padding: 40px;
     display: flex;
     justify-content: center;
