@@ -234,9 +234,6 @@ body {
  grid-row: span 1;
 }
 
-
-
-
 .tech-card-title {
     color: white;
     font-size: 24px;
@@ -252,6 +249,62 @@ body {
 
 }
 
+/* featured episode section design */
+.feature{
+     margin: 125px;
+     text-align: center;
+}
+
+.feature-title{
+    color: white;
+    font-size: 40px;
+    font-weight: 700;
+    padding-bottom: 40px;
+}
+
+.youtube-cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.uTube-card{
+    width: 380px;
+    height: 450px;
+    border-radius: 24px;
+    background: rgba(37, 13, 68, 1);
+}
+
+iframe{
+    border-radius: 24px 24px 0px 0px;
+}
+
+.card-body{
+    padding: 24px;
+}
+.utube-title{
+    color: white;
+    font-size: 24px;
+    font-weight: 700;
+    text-align: left;
+}
+
+.utube-desc{
+    color: rgb(148, 147, 147);
+    text-align: left;
+    padding: 12px 0;
+}
+
+
+.duration{
+    color: var(--primary-color);
+    text-align: left;
+}
+
+.fa-clock{
+    padding-right: 8px;
+}
 
 
 
