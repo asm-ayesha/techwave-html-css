@@ -346,9 +346,39 @@ background: rgba(53, 17, 101, 0.4);
 
 
 
+/* footer section style */
 
+.footer{
+    background: url(./assets/footer-bg.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 120px;
+    text-align: center;
+    display: grid;
+  place-items: center;
+}
 
+.social{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    color: rgb(148, 147, 147);
+    padding-top: 32px;
+    
+}
 
+li{
+    list-style: none;
+}
+
+li img{
+    padding-right: 8px;
+}
+
+.copy{
+    padding-top: 32px;
+    color: rgb(148, 147, 147);
+}
 
 /*=============================================
                 Animation Code

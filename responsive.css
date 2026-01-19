@@ -78,12 +78,18 @@
     }
 
 
-    /*meet the host section style */
+    /*meet the host section responsive */
     .meet-container {
         flex-direction: column;
         text-align: center;
-       width: 380px;
-    
+        width: 100%;
+        max-width: 380px;
+        margin: 40px auto;
+    }
+
+    .meet-container img {
+        max-width: 100%;
+        height: auto;
     }
 
     .icons {
@@ -93,5 +99,11 @@
 
     }
 
+
+    /* footer section responsive */
+    .social {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 14px;
+    }
 
 }
