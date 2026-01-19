@@ -8,9 +8,11 @@
     margin: 0;
     box-sizing: border-box;
     font-family: "Inter", sans-serif;
-    background: rgba(26, 11, 46, 1);
 }
 
+body{
+    background-color: rgba(26, 11, 46, 1);
+}
 :root{
     --linear-gradient: linear-gradient(45deg,rgba(247, 233, 63, 1) 0%,rgba(251, 9, 180, 1) 50%,rgba(145, 0, 248, 1) 100%);
 
@@ -31,6 +33,11 @@
 
 .display-hidden{
     display: none;
+}
+
+.desc{
+    color: rgb(187, 186, 186);
+    font: 16px;
 }
 
 /* navbar section style */
@@ -65,3 +72,71 @@
     padding-left: 6px;
     background: transparent;
 }
+
+
+/* banner section style */
+.banner{
+    background: url(./assets/hero-bg.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0;
+
+}
+
+.image-box{
+    position: relative;
+    
+}
+
+.mic{
+    position: absolute;
+   right:900px;
+   top: 80px; 
+}
+
+.new-tag {
+  position: absolute;
+  top: 20px;
+  right: 850px;
+  background-color: #3AEABC; 
+  color: #000;
+  font-weight: 700;
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 12px;
+  box-shadow: 0 0 8px #3AEABC;
+}
+
+.banner-body{
+    text-align: center;
+}
+
+.banner-title{
+    font-size: 60px;
+    color: white;
+    font-weight: 800;
+    padding: 40px 0 8px;
+}
+
+.banner-desc{
+    padding-bottom:24px ;
+}
+
+.spotif-btn,
+.subscribe-btn {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border: 1px solid transparent;
+}
+
+.spotif-btn:hover,
+.subscribe-btn:hover{
+    color: var(--primary-color);
+    background: transparent;
+    border: 1px solid var(--primary-color);
+}
+
+
